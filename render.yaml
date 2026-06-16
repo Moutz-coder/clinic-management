@@ -23,4 +23,4 @@ services:
     startCommand: cd client && npm run preview
     envVars:
       - key: VITE_API_URL
-        value: https://clinic-backend.onrender.com
+        value: https://clinic-management-nbnr.onrender.com
