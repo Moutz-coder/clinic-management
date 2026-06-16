@@ -8,9 +8,7 @@ services:
       - key: PORT
         value: 5000
       - key: MONGODB_URI
-        fromDatabase:
-          name: clinic-db
-          property: connectionString
+        sync: false
       - key: JWT_SECRET
         generateValue: true
       - key: JWT_EXPIRES_IN
