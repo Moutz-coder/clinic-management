@@ -15,8 +15,3 @@ services:
         value: 7d
       - key: UPLOAD_DIR
         value: uploads
-
-databases:
-  - name: clinic-db
-    databaseName: clinic_management
-    user: clinic_user
